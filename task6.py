@@ -1,4 +1,4 @@
-#Function to check if a number is prime.
+#Function to check if a number is prime
 
 def is_prime(num):
     if num < 2:
@@ -16,7 +16,7 @@ else:
     print("The number is not prime")
 
 
-#Function to reverse a string.
+#Function to reverse a string
 
 def reverse_string(text):
     return text[::-1]
@@ -38,7 +38,7 @@ number = int(input("Enter a number: "))
 print("Factorial of the entered number: ", factorial(number))
 
 
-#Function to calculate simple interest.
+#Function to calculate simple interest
 
 def simple_interest(principal, rate, time):
     interest = (principal * rate * time) / 100
@@ -51,7 +51,7 @@ time = float(input("Enter Time in Years: "))
 print("Simple Interest: ", simple_interest(principal, rate, time))
 
 
-#Function to check if a word is palindrome.
+#Function to check if a word is palindrome
 
 def is_palindrome(word):
     return word.lower() == word.lower()[::-1]
@@ -64,7 +64,7 @@ else:
     print("The word is not palindrome")
 
 
-#Function to count vowels in a string.
+#Function to count vowels in a string
 
 def count_vowels(text):
     count = 0
@@ -77,7 +77,7 @@ text = input("Enter a string: ")
 print("Number of Vowels: ", count_vowels(text))
 
 
-#Function to merge two lists.
+#Function to merge two lists
 
 def merge_lists(list1, list2):
     return list1 + list2
@@ -92,7 +92,7 @@ merged = merge_lists(list1, list2)
 print("Merged list: ", merged)
 
 
-# 8. Function to find GCD of two numbers.
+#Function to find GCD of two numbers
 
 def find_gcd(a, b):
     while b != 0:
@@ -105,7 +105,7 @@ num2 = int(input("Enter second number: "))
 print("GCD:", find_gcd(num1, num2))
 
 
-# 9. Function to find area of rectangle.
+#Function to find area of rectangle
 
 def rectangle_area(length, width):
     return length * width
@@ -116,7 +116,7 @@ width = float(input("Enter width: "))
 print("Area of rectangle: ", rectangle_area(length, width))
 
 
-# 10. Function to check Armstrong number.
+#Function to check Armstrong number
 
 def is_armstrong(num):
     original = num
